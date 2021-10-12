@@ -19,13 +19,30 @@
 3. 
 
 ## 相关介绍
-* ffmpeg  
+* ffmpeg
+> 基础概念  
 1. 超快音视频编码器
 2. 使用方法  
 > 查看帮助文档(以此帮助内容越来越多)
-+ -h 基本信息
-+ -h long 高级信息
-+ -h full 全部信息
+1. -h 基本信息
+2. -h long 高级信息
+3. -h full 全部信息  
+> ffmpeg 命令分类查询
+1. -version 显示版本
+2. -buildconf 显示编译配置
+3. -formats 显示可用格式
+4. -muxers 显示可用复用器
+5. -demuxers 显示可用解复用器
+6. -codecs 显示可用编解码器
+7. -decoders 显示可用解码器
+8. -encoders 显示可用编码器
+9. -bsfs 显示可用比特流filter
+10. -protocols 显示可用的协议
+11. -filters 显示可用的过滤器
+12. -pix_fmts 显示可用的像素格式
+13. -layouts 显示标准声道名称s
+14. -sample_fmts 显示可用的音频采样格式
+15. -colors 显示可用的颜色名称
 
 * ffplay  
 简单的播放器
